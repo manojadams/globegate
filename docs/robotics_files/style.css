@@ -1,0 +1,189 @@
+body{
+    position: relative;
+    padding:0px;
+    margin: 0px;
+    color: white;
+}
+.topBar{
+    box-shadow: 0px 3px 5px rgba(0, 0, 0, 0.5);
+    background-color:white;
+    display:block;
+    margin: 0;
+
+    color: #000080;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    text-align: center;
+    overflow: hidden;
+    font-size: 45px;
+    font-weight: bold;
+    font-family: 'Coda',cursive;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    font-style: normal;
+}
+
+.topBar a{
+    color:inherit;
+    
+}
+.chota{
+    font-size: 25px;
+    color: black;
+}
+.left{
+    float: left;
+    padding: 30px;
+    align-self: center;
+}
+.right{
+    float: right;
+    padding: 30px;
+}
+.topBar .right ul{
+    list-style-type: none;
+}
+.topBar .right li{
+    display: inline;
+}
+.page{
+    position: relative;
+    top: 0;
+    left: 0;
+    display: block;
+    padding:0px;
+    margin-top: 130px;
+    width: 100%;
+    height: 75%;
+    overflow: hidden;
+    background-color: 	lightblue;
+}
+.image{
+    background-position: left;
+    background-repeat: no-repeat;
+    background-size: contain;
+    width: 200px;
+    height: 50px;
+    padding: 0;
+    margin: 0;
+}
+
+.intro{
+    color:white;
+    padding: 30px;
+    margin: 0;
+    position: absolute;
+    backdrop-filter: blur(8px);
+    background-color: rgba(255, 255, 255, 0.3);
+    box-shadow: 2px 3px 4px rgba(0, 0, 0, 0.5);
+    top: 50%;
+    left:25%;
+    width: 30%;
+    transform: translate(-50% ,-50%);
+}
+.heading{
+    text-align:left;
+    position: relative;
+    top: 5%;            
+    padding-bottom: 10px;
+    font-size: 45px;
+}
+
+.even{
+    color:white;
+    background-color: aqua;
+}
+.even .heading hr{
+    background-color: beige;
+}
+
+.page i{
+    position: absolute;
+    bottom: -80px;
+    left: -80px;
+    color: rgba(0, 0, 0, 0.2);
+}
+.card i{
+    position: relative;
+    bottom: 0;
+    left: 0;
+    color: white;
+}
+.even i{
+    bottom: -80px;
+    right: -80px;
+    left: auto;
+}
+.topButton{
+    position: fixed;
+    padding: 10px;
+    bottom: 5%;
+    right: 5%;
+    border-radius: 50%;
+    background-color: rgba(255,255,255, 0.5);
+    box-shadow: 1px 2px 5px  rgba(0, 0, 0, 0.5);
+}
+.card{
+    box-shadow: 1px 2px 5px  rgba(0, 0, 0, 0.5);
+    border-radius: 3px;
+    background-color: rgb(103, 169, 255);
+    position: relative;
+    left: 50%;
+    transform: translate(-50%, 0%);
+    margin: 40px;
+    width: 70%;
+    padding: 20px;
+}
+footer{
+    background-color: #19B5FE;
+    padding-left: 40px;
+    align-content: center;
+    position: relative;
+    height: 15%;
+    font-size: 18px;
+    display:block;
+    text-align: center;
+    overflow: hidden;
+}
+footer::after{
+    position: relative;
+    top:50%;
+    transform: translate(0,-50%);
+}
+a.head:link{
+    color: inherit;
+    text-decoration: none;
+}
+a.head:visited{
+    color:  inherit;
+    text-decoration: none;
+}
+a.head:hover{
+    color:  inherit;
+    text-decoration: none;
+}
+a.head:active{
+    color:  inherit;
+    text-decoration: none;
+}
+a{
+    color: inherit;
+    font-size: inherit;
+    text-decoration: none;
+    transition: 0.3s;
+}
+ .current a{
+    color: inherit;
+    cursor: default;
+}
+ .current a:hover{
+    color: inherit;
+}
+ a:hover{
+    color: #006eff;
+}
+.card h3{
+    font-weight: normal;
+}
